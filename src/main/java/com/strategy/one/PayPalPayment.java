@@ -1,0 +1,7 @@
+package com.strategy.one;
+
+public class PayPalPayment  implements PaymentStrategy {
+    public void pay(double amount) {
+        System.out.println("Pagando con PayPal: " + amount);
+    }
+}
